@@ -1,0 +1,297 @@
+@media only screen and (max-width: 768px){
+    header .container-fluid .navbar .navbar-brand{
+        padding-left: 4rem;
+    }
+    header .container .row .col-md-7 h1 {
+        font-size: 6vmin;
+        font-weight: bold;
+        padding: 0.6em 0em;
+    }
+    header .container .row .col-md-7 h6 {
+        font-size: .8em !important;
+    }
+    header .container .row .col-md-7 p {
+        font-size: .7em;
+    }
+    .section-1 .container .row .col-md-6 .panel{
+        position: initial;
+        width: initial;
+        height: initial;
+        padding: 0rem 0rem !important;
+    }
+    header .row .col-md-7 {
+        padding: 12vmin 1vmin 0vmin !important;
+        padding-bottom: 35vmin;
+        font-family: var(--Rubik);
+        color: white;
+    }
+    .section-1 {
+        margin-top: -20px !important;
+        height: 90%;
+        width: 75%;
+        margin: 0 auto;
+    }
+    .section-1 .container .row .col-md-6 .panel h1{
+        text-align: center;
+        font-size: 1.5rem;
+        margin-bottom: -8px !important;
+        padding-top: 1.3rem;
+    }
+    .section-1 .container .row .col-md-6 .panel p{
+        text-align: center;
+        font-size: 12px;
+        padding: 0rem .8rem 1.4rem;
+        
+    }
+    .section-1 .container .row .col-md-6 .pray img {
+        opacity: 0.7;
+        width: 100%;
+        border-radius: 0.2em;
+        box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    }
+    header .container .col-md-7 button {
+        border-radius: 40px !important;
+        font-weight: bold;
+        padding: 0.2rem 1rem !important;
+    }
+
+    .section-2 .cover{
+        background-position: -25vmin -10vmin;
+    }
+    .section-2 .cover .content h1{
+        font-size: 2.5rem !important;
+    }
+    .section-2 .numbers .rect{
+        width: 9.2rem;
+        height: 8rem;
+    }
+    .section-2 .numbers .rect h1{
+        font-size: 2.7rem;
+    }
+    /* .purchase .cards .card .title .card-title{
+        padding-bottom: -100px !important;
+    } */
+
+    .purchase{
+        width:90%;
+        margin: 0 auto;
+
+    }
+    .card-title {
+        margin-bottom: 2rem;
+        font-size: 7vmin;
+    }
+    .section-2 .purchase>h1 {
+        padding-top: 13vmin;
+        padding-bottom: 3rem;
+        font-family: var(--Lobster);
+    }
+    .section-2 .purchase>p {
+        color: var(--light-black);
+        font-size: 3vmin;
+    }
+    .purchase .card .card-body .card-text {
+        padding: 0rem 3rem !important;
+        color: var(--light-black);
+    }
+    .purchase .card-body .pricing h1 {
+        font-size: 9vmin;
+        padding: 1.5em 0.5em 0.5em;
+    }
+    .purchase .card-body .pricing .btn {
+        font-size: 12px;
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+    .section-3{
+        height: 70vmin !important;
+    }
+    .section-3 .row .col-md-12>h1 {
+        padding: 1em 4em 0.5em 4em;
+        color: whitesmoke;
+        font-size: 5vmin;
+    }
+    .section-3 .row .col-md-12>p {
+        font-size: 16px;
+    }
+    .section-3 .platform .col-md-6 .desktop {
+        background: white;
+        display: inline-block;
+        border-radius: 3em;
+        padding: 1.2vmin 2.5vmin 0.2vmin;
+        margin: 1em;
+    }
+    .section-3 .platform i{
+        font-size: 2.4rem;
+    }
+    .section-3 .platform h3 {
+        font-size: 3vmin;
+        font-weight: bold;
+    }
+
+    .section-4 .container>h1 {
+        font-size: 6vmin;
+        padding-top: 5vmin !important;
+    }
+    .section-4 .team{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        padding-top: 5px !important;
+    }
+    .section-4 .team .col-md-4 {
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .section-4 .team .col-md-4 .carousel .carousel-inner{
+        width: 24rem;
+        margin-left: -12px !important;
+        padding-left: 0px !important;
+    }
+
+}
+
+
+/** Small Device Code **/
+
+@media only screen and (max-width: 425px){
+    header .container-fluid .navbar .navbar-brand{
+        padding-left: 1.5rem;
+    }
+    .section-1 .container .row .col-md-6{
+        padding: 0 5px 0 0;
+    }
+    .section-1 {
+        padding: 20vmin 0 10vmin !important;
+    }
+   
+    .section-1 .container .row .panel h1{
+        font-size: .8rem !important;
+        padding: 2vmin 0vmin 0vmin !important;
+    }
+    .section-1 .container .row .col-md-6 .panel p {
+        font-size: .5rem !important;
+        padding: 1rem 0.3rem 0rem !important;
+    }
+    .section-2 .cover .content h1 {
+        font-size: 1.3rem !important;
+    }
+    .section-2 .cover .content p{
+        font-size: .6rem;
+    }
+    .section-2 .numbers .rect {
+        width: 4.1rem;
+        height: 3rem;
+    }
+    .section-2 .numbers .rect h1 {
+        font-size: 1.1rem;
+        margin-top: -.7rem !important;
+        margin-bottom: 0rem;
+    }
+    .section-2 .numbers{
+        margin-top:-10vmin;
+    }
+    .section-2 .numbers .rect p{
+        font-size: 7px;
+    }
+    .section-2 .purchase>h1{
+        padding-top: 5vmin;
+        padding-bottom: 2rem;
+        font-family: var(--Lobster);
+        font-size: 6vmin;
+    }
+    
+
+    .section-3{
+        height: 70vmin !important;
+        width: 100% !important;
+    }
+
+    .section-3 .row .col-md-12>h1 {
+        padding: 1em 4em 0.5em 4em;
+        color: whitesmoke;
+        font-size: 4vmin;
+    }
+    .section-3 .row .col-md-12>p {
+        font-size: 2.5vmin;
+    }
+    .section-3 .platform .col-md-6{
+        left: 0 !important;
+        
+    }
+    .section-3 .platform h3 {
+        font-size: 3vmin;
+        font-weight: bold;
+    }
+   
+    .section-3 .row .col-md-12>h1 {
+        padding: 1em 4em 0.5em 4em;
+        color: whitesmoke;
+        font-size: 4.5vmin;
+    }
+    .section-3 .row .col-md-12>p {
+        font-size: 2.5vmin;
+    }
+    .section-3 .platform .col-md-6 .desktop {
+        background: white;
+        display: inline-block;
+        border-radius: 3em;
+        padding: 1.5vmin 2.5vmin 0.2vmin;
+        margin: 1em;
+        vertical-align: center;
+    }
+    .section-3 .platform i{
+        font-size: 2rem;
+    }
+
+    .section-4 .card-body h3{
+        margin-top: -1rem;
+        font-size: 1.3rem;
+    }
+    .section-4 .card-body p{
+        font-size: .8rem;
+    }
+    .section-4 .card-body a{
+        font-size: 1.2rem !important;
+    }
+    footer .col-md-5{
+        margin-bottom: 2rem;
+    }
+    footer .col-md-5>h1,h4{
+        font-size: 1rem;
+    }
+    footer .col-md-5>p{
+        font-size: .8rem;
+    }
+    footer .col-md-2>p{
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .section-2 .numbers .rect h1 {
+        font-size: .9rem;
+        margin-top: 0rem !important;
+        margin-bottom: 0rem;
+    }
+    .section-3 .platform{
+        padding-bottom: 0px !important;
+    }
+    .section-3 .platform .col-md-6 .desktop {
+        padding: 1vmin 2vmin 1vmin 2vmin;
+    }
+    .section-3 .platform i{
+        font-size: 1.4rem;
+        padding-right: 3px !important;
+        padding-top: 5px !important;
+    }
+    .section-3 .row .col-md-12 p{
+        padding-bottom: 0px;;
+    }
+    .section-4 .team .col-12{
+        width: 100%;
+        padding-left: 0;
+    }
+
+}
